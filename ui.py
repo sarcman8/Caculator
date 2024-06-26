@@ -11,10 +11,10 @@ class View(QWidget):
         self.te1.setReadOnly(True)
 
         self.btn1 = QPushButton('Calc', self)
-        self.btn1.clicked.connect(self.activateMessage)
+        #self.btn1.clicked.connect(self.activateMessage)
 
         self.btn2 = QPushButton('Clear', self)
-        self.btn2.clicked.connect(self.clearMessage)
+        #self.btn2.clicked.connect(self.clearMessage)
 
         self.le1 = QLineEdit('0', self)
         self.le1.setAlignment(QtCore.Qt.AlignRight)
